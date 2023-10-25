@@ -1,66 +1,88 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-body{
-    background-color: #1a1a1a ;
-}
-.calculator{
-    border: 1px solid white;
-    border-bottom: none;
-    width: 540px;
-    height: 700px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+body {
+  background-color: #1a1a1a;
 }
 
-.display{
-width: 540px;
-height: 180px;
-font-size: 30px;
-    letter-spacing: 2px;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 15px;
+.header {
+  color: white;
+  margin: 20px auto;
+  width: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.calculator {
+  border: 1px solid white;
+  border-bottom: none;
+  width: 540px;
+  height: 700px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.screen-last{
-    font-size: 20px;
-    margin-bottom: 5px;
-    height: 50px;
-    width: 100%;
-    text-align: right;
-    color:#d1d1d1
+.display {
+  width: 540px;
+  height: 180px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 15px;
 }
 
-.screen-current{
-    height: 50px;
-    width: 100%;
-    text-align: right;
-    color: white;
-    font-size: 50px;
-    
-}
-.buttons{
-display: flex;
-flex-wrap: wrap;
-width: 540px;
-height: 520px;
-align-content: stretch;
-}
-button{
-    border:none;
-    width: 135px;
-    height: 130px;
-    font-size: 30px;
+.screen-last {
+  font-size: 20px;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 100%;
+  text-align: right;
+  color: #d1d1d1;
 }
 
-button:hover{
-    background-color: #1a1a1a;
-    color: white;
+.screen-current {
+  height: 50px;
+  width: 100%;
+  text-align: right;
+  color: white;
+  font-size: 50px;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+  height: 520px;
+  align-content: stretch;
+}
+button {
+  border: none;
+  width: 135px;
+  height: 130px;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+button:active {
+  background-color: #6b6b6b;
+  transition: 0.1s;
+}
+
+footer {
+  color: white;
+  font-size: 12px;
+  width: fit-content;
+  margin: 0px auto;
 }
